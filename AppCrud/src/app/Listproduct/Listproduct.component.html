@@ -1,0 +1,144 @@
+<div class="back"><br>
+<div class="container">
+  <h3 class="labelm">Rechercher un medicament &nbsp; <input type="text" class="inputm" [(ngModel)]="filter"> </h3>
+  <p class="filter">Filtrer par : {{filter}}</p> 
+</div>
+
+<h1 class="title">Liste des produits en stock</h1><br> 
+<div class="container-fluid">
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">id</th>
+        <th scope="col">Noms</th>
+        <th scope="col">Type</th>
+        <th scope="col">Nature</th>
+        <th scope="col">prix unitaire</th>
+        <th scope="col">prix boite</th>
+        <th scope="col">Quantite</th>
+        <th scope="col">Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>ibuprofen</td>
+        <td>analgin</td>
+        <td>comprimer</td>
+        <td>200</td>
+        <td>3000</td>
+        <td>2 boites</td>
+        <td><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Editer</button></td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>paracetamol</td>
+        <td>analgin</td>
+        <td>sirop</td>
+        <td>1000</td>
+        <td>1000</td>
+        <td>12 boites</td>
+        <td><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Editer</button></td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>paracetamol</td>
+        <td>analgin</td>
+        <td>sirop</td>
+        <td>1000</td>
+        <td>1000</td>
+        <td>12 boites</td>
+        <td><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Editer</button></td>
+      </tr>   
+       <tr>
+        <th scope="row">2</th>
+        <td>paracetamol</td>
+        <td>analgin</td>
+        <td>sirop</td>
+        <td>1000</td>
+        <td>1000</td>
+        <td>12 boites</td>
+        <td><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Editer</button></td>
+      </tr>    
+      <tr>
+        <th scope="row">2</th>
+        <td>paracetamol</td>
+        <td>analgin</td>
+        <td>sirop</td>
+        <td>1000</td>
+        <td>1000</td>
+        <td>12 boites</td>
+        <td><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Editer</button></td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>paracetamol</td>
+        <td>analgin</td>
+        <td>sirop</td>
+        <td>1000</td>
+        <td>1000</td>
+        <td>12 boites</td>
+        <td><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Editer</button></td>
+      </tr><tr>
+        <th scope="row">2</th>
+        <td>paracetamol</td>
+        <td>analgin</td>
+        <td>sirop</td>
+        <td>1000</td>
+        <td>1000</td>
+        <td>12 boites</td>
+        <td><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Editer</button></td>
+      </tr><tr>
+        <th scope="row">2</th>
+        <td>paracetamol</td>
+        <td>analgin</td>
+        <td>sirop</td>
+        <td>1000</td>
+        <td>1000</td>
+        <td>12 boites</td>
+        <td><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Editer</button></td>
+      </tr><tr>
+        <th scope="row">2</th>
+        <td>paracetamol</td>
+        <td>analgin</td>
+        <td>sirop</td>
+        <td>1000</td>
+        <td>1000</td>
+        <td>12 boites</td>
+        <td><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Editer</button></td>
+      </tr><tr>
+        <th scope="row">2</th>
+        <td>paracetamol</td>
+        <td>analgin</td>
+        <td>sirop</td>
+        <td>1000</td>
+        <td>1000</td>
+        <td>12 boites</td>
+        <td><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Editer</button></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+
+
+<!-- Modal -->
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Name Product</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Save</button>
+        <button type="button" class="btn btn-danger">Delete</button>
+      </div>
+    </div>
+  </div>
+</div>
